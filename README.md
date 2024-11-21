@@ -22,4 +22,5 @@ Therefore, as a production planner, how can we assign each labor to each day and
 ## Mathematical model
 
 Objective function:
-$$ \min_{j} x_{ij} $$
+Objective function: min_j x_ij
+
