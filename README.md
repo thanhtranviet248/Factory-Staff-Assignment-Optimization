@@ -35,7 +35,7 @@ Therefore, as a production planner, how can we assign each labor to each day and
 - For each shift k in each day j, the number of labor to be assigned must fulfill the demand: $\sum_{i=1}^{20} x_{ijk} = D_{jk}, \forall k \in K, \forall j \in J$
 - For each labor i in each day j, the number of shift he/she can work is 1: $\sum_{k=1}^{3} x_{ijk} = 1, \forall i \in I, \forall j \in J$
 - For each labor i, the total day or shift he/she can work is 5: $\sum_{j=1}^{7} x_{ijk} \leq 5, \forall i in I$
-- For each labor i in each 2 days j and j+1, if he/she works on evening shift (k = 3) today, he/she cannot work on the morning shift (k = 1) tomorrow: $x_{ij3} + x_{i(j+1)1} = 1, \forall j, j+1 \in J$
+- For each labor i in each 2 days j and j+1, if he/she works on evening shift (k = 3) today, he/she cannot work on the morning shift (k = 1) tomorrow: $x_{ij3} + x_{i(j+1)1} = 1, \forall j \in J, \forall j+1 \in J$
 
 ### Objective function
 - Minimizing the total workforce assigned: $\min \sum_{i=1}^{20} \sum_{j=1}^{7} \sum_{k=1}^{3} x_{ijk}$
