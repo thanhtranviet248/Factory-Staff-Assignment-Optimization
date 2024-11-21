@@ -38,6 +38,6 @@ Therefore, as a production planner, how can we assign each labor to each day and
 - For each labor i in each 2 days j and j+1, if he/she works on evening shift (k = 3) today, he/she cannot work on the morning shift (k = 1) tomorrow: $x_{ij3} + x_{i(j+1)1} = 1, \forall j, j+1 \in J$
 
 ### Objective function
-- Minimizing the total workforce assigned: $\sum_{i=1}^{20} \sum_{j=1}^{7} \sum_{k=1}^{3} x_{ijk}$
+- Minimizing the total workforce assigned: $\min \sum_{i=1}^{20} \sum_{j=1}^{7} \sum_{k=1}^{3} x_{ijk}$
 
 
