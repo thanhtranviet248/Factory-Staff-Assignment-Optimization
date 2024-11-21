@@ -21,19 +21,17 @@ Therefore, as a production planner, how can we assign each labor to each day and
 
 ## Mathematical model
 ### Sets
-I is the set of the factory workforce, $I = \ {1, 2, 3, \dots, 20\} $\
-J is the set of weekday, $J = \ {1, 2, 3, \dots, 7\} $\
-K is the set of each shift in a day, $K = \ {1, 2, 3\} $
+- I is the set of the factory workforce, $I = \{1, 2, 3, \dots, 20\}$
+- J is the set of weekday, $J = \{1, 2, 3, \dots, 7\}$
+- K is the set of each shift in a day, $K = \{1, 2, 3\}$
+
+### Parameters
+- $D_{jk}$ is the labor demand in day j at shift k
 
 ### Decision variable
-$x_{ijk}$ is the decision variable on assigning labor i to day j at shift k
+- $x_{ijk}$ is the binary decision variable on assigning labor i to day j at shift k, $x_{ijk} = \{0, 1\}$
 
 ### Constraints
-
-
-
-
-Objective function: Minimize the total workforce assigned
-$\min \sum_$
-
+- For each shift k in in each day j, the number of labor to be assigned must fulfill the demand: $\sum_{i=1}^{20} x_{ijk} = D_{jk}, \forall k \in K, \forall j \in J$
+- For each 
 
