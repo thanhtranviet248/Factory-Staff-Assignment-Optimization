@@ -20,7 +20,13 @@ Given a factory with information:
 Therefore, as a production planner, how can we assign each labor to each day and each shift to minimize the cost, satisfy the demand but still follow the rights?
 
 ## Mathematical model
+### Sets
+I is the set of the factory workforce, $I = \{1, 2, 3, \dots, 20\}$
 
-Objective function:
-Objective function: min_j x_ij
+
+
+
+Objective function: Minimize the total workforce assigned
+$\min \sum_$
+
 
