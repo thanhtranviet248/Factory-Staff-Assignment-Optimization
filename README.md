@@ -17,6 +17,7 @@ Given a factory with information:
   * A labor can only work 1 shift a day and each week
   * A labor must take leave at least 2 days
   * If a labor works on evening shift today, he/she cannot work on the morning shift tomorrow.
+
 Therefore, as a production planner, how can we assign each labor to each day and each shift to minimize the cost, satisfy the demand but still follow the rights?
 
 ## Mathematical model
