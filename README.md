@@ -1,4 +1,4 @@
-# Python-Gurobi-Staff-Assingment-Optimization
+# Factory Staff Assingment Optimization
 My practice on operations research where I use Gurobi solver on Python environment to optimize the staff assignment for a factory. The detail problem is as below.
 
 ## Conceptual model
